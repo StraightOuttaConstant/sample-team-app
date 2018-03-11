@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   get '/pages' => 'pages#index'
-  #stupid code
+  get '/fungi' => 'fungi#index'
 end

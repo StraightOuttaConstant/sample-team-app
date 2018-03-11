@@ -1,0 +1,1 @@
+json.move_1 'Kamehameha!'

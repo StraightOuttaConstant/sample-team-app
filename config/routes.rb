@@ -1,8 +1,14 @@
 Rails.application.routes.draw do
   get '/pages' => 'pages#index'
-<<<<<<< HEAD
   get '/beatles' => 'beatles#index'
-=======
+  get '/sympols' => 'sympols#index'
+  get '/dragonballs' => 'dragonballs#index'
+  get '/sports' => 'sports#index'
+  get '/sports' => 'sports#show'
+  get '/afzals' => 'afzals#index'
+  get '/cartwheels' => 'cartwheels#index'
+  get '/cartwheels/:id' => 'cartwheels#show'
+  get '/coconuts' => 'coconuts#index'
   get '/fungi' => 'fungi#index'
->>>>>>> cee492dbed54c48192d9e903a2543e8366f9834f
 end
+

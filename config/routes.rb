@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/pages' => 'pages#index'
+  get '/apples' => 'apples#index'
   get '/beatles' => 'beatles#index'
   get '/sympols' => 'sympols#index'
   get '/dragonballs' => 'dragonballs#index'
@@ -11,4 +12,3 @@ Rails.application.routes.draw do
   get '/coconuts' => 'coconuts#index'
   get '/fungi' => 'fungi#index'
 end
-

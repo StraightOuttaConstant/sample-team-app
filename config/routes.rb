@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/pages' => 'pages#index'
+  get '/ciaran_examples' => 'ciaran_examples#index'
   get '/apples' => 'apples#index'
   get '/beatles' => 'beatles#index'
   get '/sympols' => 'sympols#index'
@@ -11,4 +12,6 @@ Rails.application.routes.draw do
   get '/cartwheels/:id' => 'cartwheels#show'
   get '/coconuts' => 'coconuts#index'
   get '/fungi' => 'fungi#index'
+
+  # test test
 end

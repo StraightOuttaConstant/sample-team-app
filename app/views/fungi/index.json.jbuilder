@@ -1,0 +1,1 @@
+json.message "because I am a Fun-Gi"
